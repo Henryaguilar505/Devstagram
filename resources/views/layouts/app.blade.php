@@ -45,7 +45,8 @@
             @endauth
 
             @guest
-            <nav class="flex gap-4 items-center justify-center">
+            <nav class="flex gap-4 items-center justify-center" style="
+            padding: .75rem;">
                 <a class="font-bold uppercase text-gray-600 text-sm" href="{{route('login')}}">Login</a>
                 <a class="font-bold uppercase text-gray-600 text-sm" href="{{route('register')}}">Crear Cuenta</a>
             </nav>
