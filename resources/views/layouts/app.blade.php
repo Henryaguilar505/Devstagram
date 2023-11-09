@@ -15,7 +15,7 @@
 <body class="bg-gray-100">
 
     <header class="p-3 md:p-5 border-b bg-white shadow">
-        <div class="container w-full mx-auto flex justify-between items-center">
+        <div class="container sm:p-5 w-full mx-auto flex justify-between items-center">
             <a href="{{route('home')}}" class="md:text-3xl font-black">
                 DevStagram
             </a>

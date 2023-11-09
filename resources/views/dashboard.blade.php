@@ -45,7 +45,7 @@
 
                 <p class="text-gray-800 text-sm mb-3 font-bold">
                     {{ $user->posts->count() }} 
-                    <span class="font-normal">@choice('Publicación|Publicacines',$user->posts->count())</span>
+                    <span class="font-normal">@choice('Publicación|Publicaciones',$user->posts->count())</span>
                 </p>
 
                 @auth()
